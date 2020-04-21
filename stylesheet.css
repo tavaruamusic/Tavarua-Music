@@ -1,0 +1,45 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	background: url(tavarua.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
+.container {
+	margin-top: 5%;
+}
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+.btn-primary {
+	background-color: rgb(27, 31, 35);
+	border-color: rgb(17, 21, 25);
+}
+.btn-primary:hover {
+	background-color:rgb(0, 0, 0);
+	border-color: rgb(255, 79, 56);
+}
+.btn-xl {
+	padding: 5px 15px;
+}
+.buffer {
+	height: 5rem;
+}
+hr {
+	border-color: rgb(255, 79, 56);
+	max-width: 1075px;
+	border-width: 3px;
+}
+
+h1 {
+	font-size: 5rem;
+	letter-spacing: 5px;
+	color: rgb(37, 41, 45,);
+	text-shadow: 2px 2px rgb(187, 181, 185);
+}
